@@ -37,7 +37,7 @@ jobs:
           echo test, and deploy your project.
 
   hello-world-windows:
-    run-on: windows-latest
+    runs-on: windows-latest
     
     steps:
       - name: Print Hello World Windows
